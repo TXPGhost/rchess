@@ -13,7 +13,7 @@ pub struct App {
 impl App {
     /// Creates a new chess app
     pub fn new(_cc: &eframe::CreationContext<'_>) -> Self {
-        Self { ui_scale: 1.0 }
+        Self { ui_scale: 2.0 }
     }
 }
 

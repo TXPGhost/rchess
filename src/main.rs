@@ -20,7 +20,7 @@ fn main() {
     eframe::run_native(
         "Chess",
         eframe::NativeOptions::default(),
-        Box::new(|cc| Box::new(App::new(cc))),
+        Box::new(|cc| Ok(Box::new(App::new(cc)))),
     )
     .expect("unable to run native app");
 }
